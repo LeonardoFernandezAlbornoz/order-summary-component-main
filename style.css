@@ -1,9 +1,7 @@
-
-html{
+html {
     width: 100%;
     height: 100%;
 }
-
 
 body {
     display: flex;
@@ -12,9 +10,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px;
-
 }
-
 
 .container {
     overflow: hidden;
@@ -38,7 +34,7 @@ body {
     justify-content: space-around;
 }
 
-.image>img{
+.image>img {
 
     width: 100%;
     height: 100%;
@@ -52,13 +48,11 @@ body {
 }
 
 h1 {
-
     display: flex;
     text-align: center;
     font-weight: 900;
     margin-bottom: 1%;
     color: hsl(223, 47%, 23%)
-    
 }
 
 p {
@@ -90,7 +84,8 @@ p {
     font-weight: 700;
     display: flex;
     position: relative;
-    right:-33%;
+    justify-content: center;
+    right: -33%;
     color: hsl(245, 75%, 52%);
 }
 
@@ -101,20 +96,17 @@ p {
     flex-direction: column;
     position: relative;
     left: 8%;
-    
 }
 
 .plan>img {
 
     position: relative;
     left: 6%;
-    
 }
-
 
 .plan>a:hover {
     color: hsl(245, 68%, 61%);
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 .plan>p>b {
@@ -160,24 +152,24 @@ button:nth-of-type(2) {
     background-color: transparent
 }
 
-@media screen  {
+@media screen {
 
-    body{
-        background-image:url(./images/pattern-background-mobile.svg);
-        background-size:100%;
-        background-repeat:no-repeat;
-        background-image:url(./images/pattern-background-desktop.svg);
-        background-size:100%;
-        background-repeat:no-repeat;
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 }
 
 @media screen and (max-width: 375px) {
 
-    body{
-        background-image:url(./images/pattern-background-mobile.svg);
-        background-size:100%;
-        background-repeat:no-repeat;
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 
 }
